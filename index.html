@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="/assets/css/ozStyle.css">
+</head>
+
+<body>
+
+
+
+
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-1 p-3 text-start ms-1 mt-4 desktop-gosterge ">
+        <button class="dropdown-item text-white " data-bs-toggle="modal" data-bs-target="#uygulamalarModal"> <i
+            class="fa-solid fa-folder-open fa-2xl" style="color: #ebae05;"></i> <br class="m-2"> Uygulamalar</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1 p-3 text-start ms-1 mt-3 desktop-gosterge">
+        <button class="dropdown-item text-white " data-bs-toggle="modal" data-bs-target="#resimlerModal"> <i
+            class="fa-solid fa-images fa-2xl" style="color: #3d68b3;"></i>
+          <br class="m-2"> Resimler</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1 p-3 text-start ms-1 mt-3 desktop-gosterge">
+        <button class="dropdown-item text-white " data-bs-toggle="modal" data-bs-target="#bilgisayarModal">
+
+
+          <img src="https://cdn0.iconfinder.com/data/icons/icons-unleashed-vol1/256/-desktop.png" width="30%"
+            height="30%" alt="">
+          <!-- <i class="fa-solid fa-desktop fa-2xl"
+            style="color: #5179bd;"></i>  -->
+          <br class="m-2"> Bilgisayarım</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1 p-3 text-start ms-1 mt-3 desktop-gosterge">
+        <button class="dropdown-item text-white " data-bs-toggle="modal" data-bs-target="#belgelerModal"> <i
+            class="fa-solid fa-folder-open fa-2xl" style="color: #ebae05;"></i> <br class="m-2"> Belgelerim</button>
+      </div>
+    </div>
+
+
+    <!-- Modallar -->
+
+    <!-- Resimler Modalı -->
+    <div class="modal fade" id="resimlerModal" tabindex="-1" data-bs-backdrop="false"
+      aria-labelledby="resimlerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center bg-secondary-subtle justify-content-center">
+            <h5 class="modal-title" id="resimlerModalLabel">Resimler</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body border-top border-secondary-subtle">
+            <!-- Ortak Modal Alanı-->
+            <div class="row">
+              <div class="col-4 border-end  border-secondary-subtle">
+                <div class="list-group">
+
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#resimlerModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-images" style="color: #3d68b3;"></i> Resimler
+                  </button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#uygulamalarModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-folder-open fa-2xs" style="color: #ebae05;"></i> Uygulamalar
+                  </button>
+                  <button data-bs-toggle="modal" data-bs-target="#bilgisayarModal" type="button"
+                    class="list-group-item list-group-item-action borderless">
+                    <img src="https://cdn0.iconfinder.com/data/icons/icons-unleashed-vol1/256/-desktop.png" width="15%"
+                      height="30%" alt="">
+                    <!-- <i class="fa-solid fa-desktop fa-2xl"
+                    style="color: #5179bd;"></i>  -->
+                    Bilgisayarım
+                  </button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#belgelerrModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-folder-open fa-xs" style="color: #ebae05;"></i> Belgelerim
+                  </button>
+                </div>
+              </div>
+              <div class="col-8">
+                <!--Ortak modal alanı bitiş-->
+                <div class="row">
+                  <div class="col-5 gosterge">
+                    <a class="text-decoration-none text-black " title="Architecht"
+                      href="https://cdnuploads.aa.com.tr/uploads/sirkethaberleri/Contents/2019/07/18/thumbs_b_c_e423b2a328d8031f6c919366f70886c3.jpg">
+                      <img class="w-75 h-75"
+                        src="https://cdnuploads.aa.com.tr/uploads/sirkethaberleri/Contents/2019/07/18/thumbs_b_c_e423b2a328d8031f6c919366f70886c3.jpg"
+                        alt="">
+                      <p>Architecht</p>
+                    </a>
+                  </div>
+                  <div class="col-5 gosterge">
+                    <a class="text-decoration-none text-black " title="Architecht"
+                      href="https://seeklogo.com/images/K/kuveyt-turk-logo-56D2F02B44-seeklogo.com.png">
+                      <img class="w-75 h-75"
+                        src="https://seeklogo.com/images/K/kuveyt-turk-logo-56D2F02B44-seeklogo.com.png" alt="">
+                      <p>Kuveyt Türk</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Uygulamalar Modalı -->
+    <div class="modal fade" id="uygulamalarModal" tabindex="-1" data-bs-backdrop="false"
+      aria-labelledby="resimlerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center bg-secondary-subtle justify-content-center">
+            <h5 class="modal-title" id="resimlerModalLabel">Uygulamalar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body border-top border-secondary-subtle">
+            <!-- Ortak Modal Alanı-->
+            <div class="row">
+              <div class="col-4 border-end  border-secondary-subtle">
+                <div class="list-group">
+
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#resimlerModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-images" style="color: #3d68b3;"></i> Resimler
+                  </button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#uygulamalarModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-folder-open fa-2xs" style="color: #ebae05;"></i> Uygulamalar
+                  </button>
+                  <button data-bs-toggle="modal" data-bs-target="#bilgisayarModal" type="button"
+                    class="list-group-item list-group-item-action borderless">
+                    <img src="https://cdn0.iconfinder.com/data/icons/icons-unleashed-vol1/256/-desktop.png" width="15%"
+                      height="30%" alt="">
+                    <!-- <i class="fa-solid fa-desktop fa-2xl"
+                  style="color: #5179bd;"></i>  -->
+                    Bilgisayarım
+                  </button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#belgelerrModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-folder-open fa-xs" style="color: #ebae05;"></i> Belgelerim
+                  </button>
+                </div>
+              </div>
+              <div class="col-8">
+                <!--Ortak modal alanı bitiş-->
+                <div class="row">
+                  <div class="col-5 gosterge">
+                    <a href="https://vscode.dev/" class="text-decoration-none text-black p-2">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+                        title="VS Code" class="w-75 h-75 m-1" alt="">
+                        <h6>VS Code</h6>
+                    </a>
+                  </div>
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bilgisayar Modalı -->
+    <div class="modal fade" id="bilgisayarModal" tabindex="-1" data-bs-backdrop="false"
+      aria-labelledby="resimlerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center bg-secondary-subtle justify-content-center">
+            <h5 class="modal-title" id="resimlerModalLabel">Bilgisayar</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body border-top border-secondary-subtle">
+            <!-- Ortak Modal Alanı-->
+            <div class="row">
+              <div class="col-4 border-end  border-secondary-subtle">
+                <div class="list-group">
+
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#resimlerModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-images" style="color: #3d68b3;"></i> Resimler
+                  </button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#uygulamalarModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-folder-open fa-2xs" style="color: #ebae05;"></i> Uygulamalar
+                  </button>
+                  <button data-bs-toggle="modal" data-bs-target="#bilgisayarModal" type="button"
+                    class="list-group-item list-group-item-action borderless">
+                    <img src="https://cdn0.iconfinder.com/data/icons/icons-unleashed-vol1/256/-desktop.png" width="15%"
+                      height="30%" alt="">
+                    <!-- <i class="fa-solid fa-desktop fa-2xl"
+                  style="color: #5179bd;"></i>  -->
+                    Bilgisayarım
+                  </button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#belgelerModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-folder-open fa-xs" style="color: #ebae05;"></i> Belgelerim
+                  </button>
+                </div>
+              </div>
+              <div class="col-8">
+                <!--Ortak modal alanı bitiş-->
+
+                <div class="row">
+                  <div class="col-6 gosterge">
+                    <a href="#" class="text-decoration-none " title="750 GB / 1 TB">
+
+                      <img class="w-50 h-50" src="https://icon-library.com/images/c-drive-icon/c-drive-icon-28.jpg"
+                        alt="">
+                      <h6 class="text-black">Windows (C:)</h6>
+                      <br>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100">750 GB / 1 TB</div>
+                      </div>
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Belgeler Modalı -->
+    <div class="modal fade" id="belgelerModal" tabindex="-1" data-bs-backdrop="false"
+      aria-labelledby="resimlerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center bg-secondary-subtle justify-content-center">
+            <h5 class="modal-title" id="resimlerModalLabel">Belgeler</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body border-top border-secondary-subtle">
+            <!-- Ortak Modal Alanı-->
+            <div class="row">
+              <div class="col-4 border-end  border-secondary-subtle">
+                <div class="list-group">
+
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#resimlerModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-images" style="color: #3d68b3;"></i> Resimler
+                  </button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#uygulamalarModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-folder-open fa-2xs" style="color: #ebae05;"></i> Uygulamalar
+                  </button>
+                  <button data-bs-toggle="modal" data-bs-target="#bilgisayarModal" type="button"
+                    class="list-group-item list-group-item-action borderless">
+                    <img src="https://cdn0.iconfinder.com/data/icons/icons-unleashed-vol1/256/-desktop.png" width="15%"
+                      height="30%" alt="">
+                    <!-- <i class="fa-solid fa-desktop fa-2xl"
+                  style="color: #5179bd;"></i>  -->
+                    Bilgisayarım
+                  </button>
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#belgelerrModal"
+                    class="list-group-item list-group-item-action borderless">
+                    <i class="fa-solid fa-folder-open fa-xs" style="color: #ebae05;"></i> Belgelerim
+                  </button>
+                </div>
+              </div>
+              <div class="col-8">
+                <!--Ortak modal alanı bitiş-->
+                <div class="row">
+                  <div class="col-5 gosterge ">
+                    <a href="https://drive.google.com/" class=" p-2 text-black text-decoration-none text-center">
+                      <img
+                        src="https://logos-world.net/wp-content/uploads/2020/11/Google-Drive-Logo.png"
+                        title="Önemsiz" class="w-75 h-50 m-1" alt="">
+                        <h6>Önemsiz</h6>
+                        
+                    </a>
+                  </div>
+                  <div class="col-5 gosterge">
+                    <a href="https://hackertyper.net/" title="GTA-8 Yükle.exe" class="text-decoration-none text-black p-2">
+                      <img
+                        src="https://i.ytimg.com/vi/Oy5N-0YKjEQ/maxresdefault.jpg"
+                        title="GTA-8 Yükle .exe" class="w-75 h-75 m-1" alt="">
+
+                        <h6>Gta_8_Kur.exe</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+
+
+
+
+  <!-- <hr>
+  <h1>Progress Bar</h1>
+  <div class="container mb-5">
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100">75%</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="0" aria-valuemin="0"
+      aria-valuemax="100">
+      <div id="progressBar" class="bg-success progress-bar progress-bar-striped progress-bar-animated"
+        style="width: 0%"></div>
+    </div>
+  </div> -->
+
+
+  <nav class="navbar navbar-expand-lg bg-secondary-subtle fixed-bottom ">
+    <div class="container-fluid">
+      <div class="dropup">
+        <button role="button" type="button" class="btn dropdown gosterge" data-bs-toggle="dropdown">
+          <i class="fa-brands fa-windows fa-2xl" style="color: #1964e6;"></i>
+        </button>
+        <ul class="dropdown-menu ps-2 pb-3 pt-2 rounded-2">
+          <li>
+
+            <div class="row">
+              <div class="col-12 ">
+                <input type="text" class="form-control" placeholder="Ara" width="70%">
+              </div>
+              <br>
+              <div class="col-4 m-2">
+                <a href="https://www.google.com/" class="gosterge-panel p-2">
+                  <img src="https://download.logo.wine/logo/Google_Chrome/Google_Chrome-Logo.wine.png"
+                    title="Google_Chrome" class="w-100" alt="">
+                </a>
+
+              </div>
+              <div class="col-4 m-2">
+                <a href="https://vscode.dev/" class="gosterge-panel p-2">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
+                    title="VS Code" class="w-50 h-50" alt="">
+                </a>
+              </div>
+              <!-- <a class="dropdown-item" href="#"> <i class="fa-solid fa-folder-open fa-lg" style="color: #ebae05;"></i>
+              Uygulamalar</a> -->
+
+          </li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#resimlerModal"> <i
+                class="fa-solid fa-images fa-lg" style="color: #3d68b3;"></i>
+              Resimler</button></li>
+          <li><button class="dropdown-item" href="#"> <i class="fa-solid fa-folder-open fa-lg"
+                style="color: #ebae05;"></i>
+              Belgelerim</button></li>
+          <li><button class="dropdown-item" href="#"> <i class="fa-solid fa-desktop fa-lg" style="color: #5179bd;"></i>
+              Bilgisayarım</button></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="/powerOn.html"> <i title="Güç" class="fa-solid fa-power-off fa-lg"
+                style="color: #19191a;"></i> Bilgisayarı Kapat</a></li>
+        </ul>
+      </div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 rounded-5 border border-secondary-subtle" type="search" placeholder="Search"
+          aria-label="Search">
+
+      </form>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item gosterge">
+
+            <div class="btn-group dropup">
+              <button type="button" class="btn " data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-chevron-up mt-3" style="color: #161718;"></i>
+              </button>
+              <ul class="dropdown-menu rounded-2">
+
+                <li class="row">
+                  <div class="col-3">
+                    <a class="gosterge-panel p-2 text-center">
+                      <img
+                        src="https://content.kaspersky-labs.com/se/com/content/en-global/images/b2c/product-icon-kisa/product-icon-kisa.png"
+                        class="gosterge-panel " width="90%" title="Kaspersky : Bilgisayarınız Korunuyor" alt="">
+                    </a>
+                  </div>
+                  <div class="col-3">
+                    <a class="gosterge-panel p-2 text-center">
+                      <img src="https://www.logo.wine/a/logo/Nvidia/Nvidia-Light-Vertical-Dark-Background-Logo.wine.svg"
+                        width="90%" title="NVIDIA ayarları" alt="">
+                    </a>
+                  </div>
+                  <div class="col-3">
+                    <a class="gosterge-panel p-2 text-center">
+                      <img
+                        src="https://content.kaspersky-labs.com/fm/site-editor/61/61e2844b1ad91fdce3723d05bb587b98/source/product-ksec.svg"
+                        width="90%" title="VPN : Aktif - Konum : New York" alt="">
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item gosterge">
+            <a class="nav-link" aria-current="page" href="#">
+              <i class="fa-solid fa-wifi mt-3" title="Misafir_Hazarfen İnternet Erişimi Yerel Ağ Bağlantısı Bağlandı"
+                style="color: #19191a;"></i>
+            </a>
+          </li>
+          <li class="nav-item gosterge">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-volume-low mt-3" title="Hoparlör (Realtek(R) Audio): 23%"
+                style="color: #2a2b2c;"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown gosterge">
+            <i title="Pil durumu : 75%" class="fa-solid fa-battery-three-quarters  mt-4" style="color: #202122;"></i>
+          </li>
+          <li class="nav-item gosterge">
+            <a id="saat" title="Yerel Saat ve Dakika" class="nav-link text-end fw-bold">
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var progressBar = document.getElementById("progressBar");
+      var progressValue = 0;
+
+      function progressBarUpdate() {
+        if (progressValue < 100) {
+          progressValue += 5;
+          progressBar.style.width = progressValue + "%";
+          progressBar.innerHTML = progressValue + " %";
+          progressBar.setAttribute("aria-valuenow", progressValue);
+        }
+      }
+
+      setInterval(progressBarUpdate, 500);
+    })
+  </script>
+  <!-- <hr style="margin-top: 300px;"> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+  <script src="/assets/js/ozScript.js"></script>
+</body>
+
+</html>

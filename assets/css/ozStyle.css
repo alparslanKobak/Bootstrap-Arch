@@ -1,0 +1,55 @@
+.gosterge {
+    border: none;
+}
+
+.gosterge:hover {
+    background-color: rgb(250, 247, 247);
+    cursor: pointer;
+}
+
+.gosterge-panel{
+
+}
+
+.gosterge-panel:hover{
+    background-color: rgb(234, 230, 230);
+    
+}
+
+#saat {
+    font-size: 12px;
+
+
+}
+.borderless {
+    border: none;
+    box-sizing: none;   
+}
+.mainclass {
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    min-height: 100%;
+    height: 1000px;
+    min-width: 1200px;
+    background-image: url("https://www.monsternotebook.com.tr/UPLOAD/Wallpapers/Wallpapers/Wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.desktop-gosterge{
+
+}
+.desktop-gosterge:hover {
+    background-color: rgba(250, 247, 247, 0.2); /* Burada son sayı 0 ile 1 arasında bir değer alır ve şeffaflığı temsil eder */
+    cursor: pointer;
+}
+
+/* .modal-backdrop {
+    display: none;
+} */
+
